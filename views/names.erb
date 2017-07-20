@@ -1,0 +1,21 @@
+<script>
+	function addName() {
+		alert("addName function called");
+		var input = document.createElement("input");
+		input.type = "text";
+		input.name = "names_provided[]";
+		document.getElementById("form_names").appendChild(input);
+	}
+</script>
+
+
+
+Please enter a name.
+
+
+<form method="post" action="list" id="form_names">
+	<input type="text" name="names_provided[]" required>
+	<button type="button" onclick="addName()">Add Name</button>
+    <input type="submit" >
+</form>
+
