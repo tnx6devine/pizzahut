@@ -1,0 +1,68 @@
+body {
+	background-color: white;
+	height:;
+}
+
+hr {
+	display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+}
+
+table {
+	font-family:monospace;
+	font-size:12px;
+}
+
+footer {
+	background-color:white;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding-right: 200px;
+}
+
+.left{
+	float: left;
+    display: block;
+    width: 50%;
+}
+
+.right{
+	float: right;
+	position: auto;
+    display: block;
+    width: 35%;
+    padding-bottom: 1vh;
+    padding-top: vh;
+    padding-right: 10vw;
+    height: 10vh;
+}
+
+.right img {
+ 	padding-bottom: 1vh;
+    padding-top: 0vh;
+    padding-right: 10vw;
+}
+
+.left p {
+    font-size: 2vh;
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
