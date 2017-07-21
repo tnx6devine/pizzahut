@@ -28,7 +28,16 @@ Take a look at what we have to offer:
 	<p>Street Address</p></td>
 	<td><input type="text" name="address" required></td></tr>
 	<tr><td><p>Voice Phone ###-###-###</p></td><td>
-	<input type="text" name="phone" required>(where we can reach you)</td></tr><tr><td></td><td>
+	<input type="text" name="phone" required>(where we can reach you)</td></tr><tr><td>Menu Item</td>
+	<td>
+		<select name="menuitem" onchange="addMenuItem()" required id="menuitem">
+			<option value="">Select One</option>
+  			<option value="pizza">Pizza</option>
+  			<option value="cheesestick">Cheese Stick</option>
+			<option value="breadstick">Bread Stick</option>
+			<option value="pop">Pop</option>
+</select></td></tr><tr>
+	<td></td><td>
     <button type="submit">  Continue  </button></td><td></td></tr>
 </form>
 </table>
