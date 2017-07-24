@@ -7,12 +7,8 @@ function addMenuItem() {
 	alert("enter function");
 	var menuitem = document.getElementById("menuitem").value;
 	if (menuitem == "pizza") {
-		var input = document.createElement("input");
-		input.type = "text";
-		input.name = "toppings";
-		alert("in if");
-		document.getElementById("form_names").appendChild(input);
-		alert("end if");
+		var input = '<input type="text" name="toppings" placeholder="enter toppings">';
+		document.getElementById("toppings").innerHTML = input;;
 	}
 
 }
